@@ -4,7 +4,6 @@ import { slotClasses } from './'
 import Talks, { talksClasses } from '../Talks'
 
 const EntriesSlot = ({ collection }) => {
-  console.log(collection)
   return (
     <div {...slotClasses('entries')}>
       <span {...slotClasses('time')}>{collection.time}</span>

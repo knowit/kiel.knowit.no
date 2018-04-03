@@ -3,6 +3,7 @@
 @import './button.css';
 @import './slots.css';
 @import './talks.css';
+@import './speakers.css';
 
 body {
   margin: 0;

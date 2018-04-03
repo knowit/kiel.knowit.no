@@ -28,6 +28,8 @@
 
   &__talk-description {
     margin-top: 0.2rem;
+    display: inline-block;
+
     & button {
       margin: 1rem auto;
       color: black;
@@ -41,6 +43,7 @@
   &__talk-speakers {
     display: inline-block;
     text-align: center;
+    width: 15%;
 
     & img {
       width: 60px;

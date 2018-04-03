@@ -21,19 +21,19 @@ class Talk extends React.Component {
   render() {
     const { talkId } = this.props
     const talk = viewmodel.talks[talkId]
-    console.log('TALK', talk)
     return (
       <div {...talksClasses('talk')}>
         <div {...talksClasses('talk-speakers')}>
-          {talk.speakers.map(speaker => <TalkSpeaker speaker={speaker} />)}
+          {talk.speakers && talk.speakers.length !== 0 ? <TalkSpeaker speaker={talk.speakers[0]} numberOfSpeakers={talk.speakers.length} talkId={talkId}/> : null}
         </div>
+
         <div {...talksClasses('talk-info')}>
-        <strong {...talksClasses('talk-title')}>{talk.title}</strong>
-        <TalkDescription
-          description={talk.description}
-          showDescription={this.state.showDescription}
-          toggleShowDescription={this.toggleShowDescription}
-        />
+          <strong {...talksClasses('talk-title')}>{talk.title}</strong>
+          <TalkDescription
+            description={talk.description}
+            showDescription={this.state.showDescription}
+            toggleShowDescription={this.toggleShowDescription}
+          />
         </div>
       </div>
     )

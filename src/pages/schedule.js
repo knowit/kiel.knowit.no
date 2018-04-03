@@ -40,6 +40,14 @@ class SchedulePage extends React.Component {
     return (
       <div {...classes('', 'schedule')}>
         <h1>Skjema</h1>
+          <ButtonGroup>
+            <Link {...buttonClasses('', 'white')} to="/">
+              Forside
+            </Link>
+            <Link {...buttonClasses('', 'white')} to="/speakers/">
+              Talere
+            </Link>
+          </ButtonGroup>
         <ButtonGroup>
           {viewmodel.schedules.map((day, index) => (
             <button

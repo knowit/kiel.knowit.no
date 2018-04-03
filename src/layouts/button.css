@@ -10,10 +10,12 @@
   color: black;
   border-radius: 4px;
   background-color: white;
+  border: 1px solid var(--gray-1);
 
   &:hover,
   &:focus {
-    background-color: #b7b7dd;
+    background-color: var(--purple-1);
+    border: 1px solid var(--purple-1);
     color: white;
   }
 }

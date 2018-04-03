@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { slotClasses } from './'
 
 const BreakSlot = ({ collection }) => {
-  console.log('BEAK', collection)
   return (
     <div {...slotClasses('', 'gray-background')}>
       <span {...slotClasses('time')}>{collection.time}</span>

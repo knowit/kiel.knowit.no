@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import { slotClasses } from './'
 
 const OtherSlot = ({ collection }) => {
-  console.log(collection)
   return (
     <div {...slotClasses('', 'white-background')}>
       <span {...slotClasses('time')}>{collection.time}</span>

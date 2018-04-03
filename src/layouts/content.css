@@ -14,11 +14,29 @@
   }
 }
 
+.c-content--info {
+  height: 50vh;
+  min-height: 50vh;
+
+  & > p {
+    max-width: 30%;
+    margin: 1rem auto;
+
+  }
+  text-align: center;
+  background-color: white;
+}
+
 .c-content--intro {
   justify-content: center;
+  position: relative;
   background-color: var(--light-blue);
+  z-index: 33;
+
   & > p {
     margin-top: 1.5rem;
+    text-align: center;
+    font-weight: bolder;
   }
 
   & .c-button {
@@ -26,9 +44,24 @@
     display: inline-block;
     margin-right: 1rem;
   }
+
+  &::after {
+    content: ' ';
+    background: url('./colorline.png') no-repeat;
+    background-size: 100vw 100vh;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    opacity: 0.1;
+    z-index: -1;
+  }
 }
 
-.c-content--schedule {
+.c-content--schedule,
+.c-content--speakers {
   background-color: var(--gray-2);
 
   & .c-content__container {
