@@ -1,0 +1,35 @@
+.c-button-group {
+  & > .c-button {
+    margin-right: 0.4rem;
+  }
+}
+
+.c-button {
+  padding: 0.8rem 3rem;
+  text-decoration: none;
+  color: black;
+  border-radius: 4px;
+  background-color: white;
+
+  &:hover,
+  &:focus {
+    background-color: #b7b7dd;
+    color: white;
+  }
+}
+
+.un-button {
+  transition: background-color none;
+  padding: 0;
+  border-radius: 0;
+  font-size: 1em;
+  color: inherit;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  display: block;
+}
+
+.un-button:focus {
+  outline: none;
+}
