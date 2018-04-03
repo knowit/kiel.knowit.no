@@ -1,26 +1,23 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# Knowit kiel
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+Created with [Gatsby](https://www.gatsbyjs.org/).
 
-## Install
-
-Make sure that you have the Gatsby CLI program installed:
+## Install gatsby
 ```sh
 npm install --global gatsby-cli
 ```
 
+and install dependencies inside this folder:
+```sh
+npm install
+```
+
 And run from your CLI:
 ```sh
-gatsby new gatsby-example-site
+gatsby develop
 ```
 
-Then you can run it by:
+To build, run:
 ```sh
-cd gatsby-example-site
-npm run develop
+npm run build
 ```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
