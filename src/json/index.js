@@ -1,5 +1,5 @@
 const viewmodel = {
-  title: 'Knowit Objectnet Fagseminar våren 2018',
+  title: 'Fagseminar våren 2018',
   event: {
     date: '27. april - 29. april 2018',
     longDate: '27. april - 29. april 2018',

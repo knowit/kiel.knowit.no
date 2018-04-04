@@ -4,6 +4,7 @@ import BEMHelper from 'react-bem-helper'
 import viewmodel from '../json'
 import Paragraph from '../components/Paragraph'
 import ButtonGroup from '../components/ButtonGroup'
+import Arrow from '../components/Icons/Arrow';
 
 const classes = new BEMHelper({
   name: 'content',
@@ -18,11 +19,14 @@ const buttonClasses = new BEMHelper({
 const IndexPage = () => (
   <div>
     <div {...classes('', 'intro')}>
+      <img src='./static/logo_kielferga.png' />
       <h1>{viewmodel.title}</h1>
-      <Paragraph cssModfier="white">Tid: {viewmodel.event.date}</Paragraph>
-      <Paragraph cssModfier="white">
-        Sted: {viewmodel.event.city}, {viewmodel.event.country}
-      </Paragraph>
+      <div>
+        <Paragraph cssModfier="white">Tid: {viewmodel.event.date}</Paragraph>
+        <Paragraph cssModfier="white">
+          Sted: {viewmodel.event.city}, {viewmodel.event.country}
+        </Paragraph>
+      </div>
       <ButtonGroup>
         <Link {...buttonClasses('', 'white')} to="/speakers/">
           Talere
@@ -31,8 +35,11 @@ const IndexPage = () => (
           Skjema
         </Link>
       </ButtonGroup>
+      <a href="#info">
+        <Arrow />
+      </a>
     </div>
-    <div {...classes('', 'info')}>
+    <div id="info" {...classes('', 'info')}>
       <h2>Informasjon</h2>
       <p>
         Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte selv som lager programmet. Våren 2018 vil den bli avholdt 27. april - 29. april 2018 i Kiel, Tyskland.

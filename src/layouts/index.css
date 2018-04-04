@@ -55,3 +55,9 @@ svg {
   width: 100vw;
   border: none;
 }
+
+@media (--medium-viewport) {
+  .google-maps-content {
+    width: 60%;
+  }
+}

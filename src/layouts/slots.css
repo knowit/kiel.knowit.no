@@ -36,3 +36,26 @@
     display: inline-block;
   }
 }
+
+@media (--medium-viewport) {
+  .c-slot,
+  .c-slot__entries {
+    flex-flow: column;
+  }
+  .c-slot__time {
+    align-self: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .c-slot__title {
+    padding: 1rem 0;
+    font-weight: bold;
+    width: 100%;
+  }
+  .c-slot--white-background .c-slot__title {
+    border-left: none;
+    border-right: none;
+  }
+}

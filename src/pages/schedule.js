@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import BEMHelper from 'react-bem-helper'
+import { Parallax } from 'react-spring'
 import viewmodel from '../json'
 import Paragraph from '../components/Paragraph'
 import ButtonGroup from '../components/ButtonGroup'
@@ -48,11 +49,11 @@ class SchedulePage extends React.Component {
               Talere
             </Link>
           </ButtonGroup>
-        <ButtonGroup>
+        <ButtonGroup cssModfier="schedule-days">
           {viewmodel.schedules.map((day, index) => (
             <button
               onClick={evt => this.onDayClick(evt, index)}
-              {...buttonClasses()}
+              {...buttonClasses('', this.state.activeIndex === index ? 'active' : '')}
             >
               {day.day}
             </button>
