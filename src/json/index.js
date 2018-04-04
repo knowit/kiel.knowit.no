@@ -38,7 +38,7 @@ const viewmodel = {
         },
         {
           time: '15:00 - 19:30',
-          title: 'Workshops',
+          title: 'Workshop',
           entries: [
             {
               room: 'Parliament 🎥',
@@ -46,7 +46,7 @@ const viewmodel = {
             },
             {
               room: 'Congress',
-              slots: ['nodemcuws', 'startupws'],
+              slots: ['nodemcuws', 'startupws', 'uuws'],
             },
             {
               room: 'Bundestag',
@@ -54,7 +54,7 @@ const viewmodel = {
             },
             {
               room: 'Stortinget',
-              slots: ['legomindstormws', 'uuws'],
+              slots: ['legomindstormws'],
             },
           ],
         },
