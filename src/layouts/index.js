@@ -16,10 +16,10 @@ const TemplateWrapper = ({ children }) => {
   return (
     <div>
       <Helmet
-        title="Gatsby Default Starter"
+        title="Knowit Objectnet Fagseminar 2018"
         meta={[
-          { name: 'description', content: 'Sample' },
-          { name: 'keywords', content: 'sample, something' },
+          { name: 'description', content: 'Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte selv som lager programmet. Våren 2018 vil den bli avholdt 27. april - 29. april 2018 i Kiel, Tyskland.' },
+          { name: 'keywords', content: 'Fagseminar, Kiel, Fag' },
         ]}
       >
         <link
