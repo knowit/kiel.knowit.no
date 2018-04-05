@@ -212,7 +212,7 @@ const viewmodel = {
           entries: [
             {
               room: 'Auditorium 🎥',
-              slots: ['thegathering'],
+              slots: ['astronaut'],
             },
             {
               room: 'Parliament 🎥',
