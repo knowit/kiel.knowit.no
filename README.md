@@ -21,3 +21,9 @@ To build, run:
 ```sh
 npm run build
 ```
+
+## Deploy
+To deploy a new version, run:
+```sh
+npm run deploy
+```
