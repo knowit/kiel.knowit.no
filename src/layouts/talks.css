@@ -28,7 +28,7 @@
 
   &__talk-description {
     margin-top: 0.2rem;
-    display: inline-block;
+    display: block;
 
     & button {
       margin: 1rem auto;
@@ -65,6 +65,12 @@
     font-size: 0.8rem;
     display: block;
     font-weight: bold;
+    color: black;
+
+    &:hover,
+    &:focus {
+      color: black;
+    }
   }
 }
 
