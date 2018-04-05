@@ -3,5 +3,5 @@ module.exports = {
     title: 'Knowit Kiel 2018',
   },
   plugins: ['gatsby-plugin-react-helmet'],
-  pathPrefix: '/new.kiel.knowit.no'
+  pathPrefix: '/kiel.knowit.no'
 };
