@@ -2,7 +2,7 @@
 
 Created with [Gatsby](https://www.gatsbyjs.org/).
 
-## Install gatsby
+## Install
 ```sh
 npm install --global gatsby-cli
 ```
@@ -12,10 +12,14 @@ and install dependencies inside this folder:
 npm install
 ```
 
+## Development
+
 And run from your CLI:
 ```sh
 gatsby develop
 ```
+
+## Build
 
 To build, run:
 ```sh
