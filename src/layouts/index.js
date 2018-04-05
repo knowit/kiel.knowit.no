@@ -26,6 +26,7 @@ const TemplateWrapper = ({ children }) => {
           href="https://fonts.googleapis.com/css?family=Raleway"
           rel="stylesheet"
         />
+      <link rel="shortcut icon" type="image/png" href='./static/logo_kielferga_dark.png' />
       </Helmet>
       {children()}
       <div className="google-maps-wrapper">

@@ -6,6 +6,6 @@ yarn-error.log
 # Build directory
 /public/*
 !/public/static/pics
-
+!/public/static
 
 .DS_Store
