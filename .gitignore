@@ -6,6 +6,8 @@ yarn-error.log
 # Build directory
 /public/*
 !/public/static/pics
-!/public/static
+!/public/static/logo_kielferga_dark.png
+!/public/static/logo_kielferga.png
+!/public/CNAME
 
 .DS_Store
