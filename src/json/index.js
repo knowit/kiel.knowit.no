@@ -647,9 +647,9 @@ const viewmodel = {
           pic: 'ea.jpg',
         },
       ],
-      title: 'Libanon',
+      title: 'Det libanesiske folkeregisteret …. eller en annen røverhistorie',
       type: 'Talk',
-      description: 'Beskrivelse kommer',
+      description: 'Når noe bare dukker opp og synes å være for godt til å være sant, hva gjør man da? Om Nigeriabrev, komplett meningsløse politiske strukturer, korrupsjon, attentater og naive nordmenn som vil gjøre verden til et såkalt bedre sted å leve. Et innblikk i en av de mer eksotiske delene av Eriks CV.',
     },
     larslundby: {
       pending: false,
@@ -668,21 +668,21 @@ const viewmodel = {
       description: 'Beskrivelse kommer',
     },
     designprinsipper: {
-      pending: false, 
+      pending: false,
       speakers: [
         {
           name: 'Noor Knutsen',
-          bio: 'Noor kommer fra kysten av Trøndelag, og kjennetegnes med bred og variert kompetanse. I 2009 ble han tildelt en studieplass innen Visuell Kommunikasjon ved Høgskolen i Sørøst Norge. og gjennomførte et år av bachelorgraden i utlandet, ved University of Wollongong i Australia. Etter at han ble uteksaminert i 2012, har han jobbet som profesjonell designer på en rekke små og store prosjekter. For Noor handler design om å forenkle, og prioritere det som er viktig for sluttbrukeren. Derfor er det avgjørende med en god strategi i forkant av et prosjekt, og Noor verdsetter en grundig prosess i samarbeid med kunden. Noor jobber med design for alle typer digitale flater, og behersker de fleste ledende software for utarbeidelse av grafikk.', 
-          email: 'noor.knutsen@knowit.no', 
+          bio: 'Noor kommer fra kysten av Trøndelag, og kjennetegnes med bred og variert kompetanse. I 2009 ble han tildelt en studieplass innen Visuell Kommunikasjon ved Høgskolen i Sørøst Norge. og gjennomførte et år av bachelorgraden i utlandet, ved University of Wollongong i Australia. Etter at han ble uteksaminert i 2012, har han jobbet som profesjonell designer på en rekke små og store prosjekter. For Noor handler design om å forenkle, og prioritere det som er viktig for sluttbrukeren. Derfor er det avgjørende med en god strategi i forkant av et prosjekt, og Noor verdsetter en grundig prosess i samarbeid med kunden. Noor jobber med design for alle typer digitale flater, og behersker de fleste ledende software for utarbeidelse av grafikk.',
+          email: 'noor.knutsen@knowit.no',
           pic: 'noor.jpg',
         },
       ],
-      title: 'Designprinsipper', 
+      title: 'Designprinsipper',
       type: 'Talk',
       description: 'Beskrivelse kommer',
     },
     selgerne: {
-      pending: false, 
+      pending: false,
       speakers: [
         {
           name: 'Erik Nylund',
