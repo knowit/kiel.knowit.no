@@ -18,7 +18,7 @@ const viewmodel = {
           title: 'Vi ankommer Kiel fergen',
         },
         {
-          time: '14:00-14:20',
+          time: '14:00-14:05',
           title: 'Plenumsforedrag',
           entries: [
             {
@@ -28,8 +28,14 @@ const viewmodel = {
           ],
         },
         {
-          time: '14:20-14:45',
-          title: 'Internmøte',
+          time: '14:05-14:50',
+          title: 'Plenumsforedrag',
+          entries: [
+            {
+              room: 'Show lounge',
+              slots: ['gdpr']
+            }
+          ]
         },
         {
           time: '14:45-15:00',
@@ -46,11 +52,11 @@ const viewmodel = {
             },
             {
               room: 'Congress',
-              slots: ['nodemcuws', 'startupws', 'uuws'],
+              slots: ['kubernetesws', 'startupws', 'uuws'],
             },
             {
               room: 'Bundestag',
-              slots: ['kubernetesws', 'spotifyws'],
+              slots: ['nodemcuws', 'spotifyws'],
             },
             {
               room: 'Stortinget',
@@ -64,7 +70,7 @@ const viewmodel = {
       day: 'Lørdag 28. April',
       collections: [
         {
-          time: '14:00-16:00',
+          time: '14:00-14:45',
           title: 'Plenumsforedrag',
           entries: [
             {
@@ -72,9 +78,24 @@ const viewmodel = {
               slots: [
                 'introday2',
                 'larslundby',
+              ],
+            },
+          ],
+        },
+        {
+          time: '14:45-15:00',
+          title: 'Pause',
+          isBreak: true,
+        },
+        {
+          time: '15:00-16:00',
+          title: 'Plenumsforedrag',
+          entries: [
+            {
+              room: 'Auditorium 🎥',
+              slots: [
                 'libanon',
                 'hanschristian',
-                'gdpr',
                 'balance',
               ],
             },
@@ -98,8 +119,16 @@ const viewmodel = {
               slots: ['bottom'],
             },
             {
-              room: 'Congress',
+              room: 'Congress 1',
               slots: ['doorbell'],
+            },
+            {
+              room: 'Congress 2',
+              slots: ['origo'],
+            },
+            {
+              room: 'Congress 3',
+              slots: ['authapi'],
             },
             {
               room: 'Bundestag',
@@ -125,12 +154,20 @@ const viewmodel = {
               slots: ['crypto'],
             },
             {
-              room: 'Congress',
+              room: 'Congress 1',
               slots: ['eventkafka'],
             },
             {
-              room: 'Bundestag',
+              room: 'Congress 2',
+              slots: ['designprinsipper'],
+            },
+            {
+              room: 'Congress 3',
               slots: ['asyncawait'],
+            },
+            {
+              room: 'Bundestag',
+              slots: ['bootstrap'],
             },
           ],
         },
@@ -140,47 +177,28 @@ const viewmodel = {
           isBreak: true,
         },
         {
-          time: '18:15 - 18:45',
-          title: 'Foredrag',
-          entries: [
-            {
-              room: 'Auditorium 🎥',
-              slots: ['alexaskills'],
-            },
-            {
-              room: 'Parliament 🎥',
-              slots: ['origo'],
-            },
-            {
-              room: 'Congress',
-              slots: ['authapi'],
-            },
-            {
-              room: 'Bundestag',
-              slots: ['youtube'],
-            },
-          ],
-        },
-        {
-          time: '18:45-19:00',
-          title: 'Pause',
-          isBreak: true,
-        },
-        {
-          time: '19.00 - 19:15',
+          time: '18:15 - 18:30',
           title: 'Lyntaler',
           entries: [
             {
               room: 'Auditorium 🎥',
-              slots: ['serverlessazure'],
-            },
-            {
-              room: 'Parliament 🎥',
               slots: ['thegathering'],
             },
             {
-              room: 'Congress',
+              room: 'Parliament 🎥',
+              slots: ['clibank'],
+            },
+            {
+              room: 'Congress 1',
               slots: ['consumerdrivencontracts'],
+            },
+            {
+              room: 'Congress 2',
+              slots: ['selgerne'],
+            },
+            {
+              room: 'Congress 3',
+              slots: ['serverlessazure'],
             },
             {
               room: 'Bundestag',
@@ -189,19 +207,19 @@ const viewmodel = {
           ],
         },
         {
-          time: '19:15 - 19:30',
+          time: '18:30 - 18:45',
           title: 'Lyntaler',
           entries: [
             {
               room: 'Auditorium 🎥',
-              slots: ['astronaut'],
+              slots: ['thegathering'],
             },
             {
               room: 'Parliament 🎥',
-              slots: ['clibank'],
+              slots: ['alexaskills'],
             },
             {
-              room: 'Congress',
+              room: 'Congress 1',
               slots: ['mats3'],
             },
             {
@@ -268,7 +286,7 @@ const viewmodel = {
           bio:
             "Johannes har en mastergrad i 'Informatikk: Design, bruk og interaksjon' men foretrekker å programmere og da helst front-end. Han har to bachelorgrader: den første i 'Kultur og kommunikasjon' fra Universitetet i Oslo og den andre i 'Digital medieproduksjon' fra Høgskolen i Østfold. Dette har gitt et godt grunnlag for å forstå informasjonsflyt, både mellommenneskelig men også mellom menneske og maskin. Johannes har spilt mange år i band med mer enn hundre pub-konsert rundt i det meste av Norge. Han har også vært med på flere teateroppsetninger og har med dette opparbeidet seg god erfaring i å prestere foran store forsamlinger.",
           email: 'johannes.akse@knowit.no',
-          pic: 'johannes.akse.jpg',
+          pic: 'johannesakse.jpg',
         },
       ],
       title: 'Async Await - Make asynchronous look synchronous',
@@ -588,7 +606,7 @@ const viewmodel = {
           pic: 'jhg.jpg',
         },
       ],
-      title: 'Intro dag to',
+      title: 'Innledning, litt om fag og internmøte',
       type: 'Talk',
     },
     hanschristian: {
@@ -648,6 +666,34 @@ const viewmodel = {
         'Innslag fra Lars Lundby om visualisering av kompetansekartlegging',
       type: 'Talk',
       description: 'Beskrivelse kommer',
+    },
+    designprinsipper: {
+      pending: false, 
+      speakers: [
+        {
+          name: 'Noor Knutsen',
+          bio: 'Noor kommer fra kysten av Trøndelag, og kjennetegnes med bred og variert kompetanse. I 2009 ble han tildelt en studieplass innen Visuell Kommunikasjon ved Høgskolen i Sørøst Norge. og gjennomførte et år av bachelorgraden i utlandet, ved University of Wollongong i Australia. Etter at han ble uteksaminert i 2012, har han jobbet som profesjonell designer på en rekke små og store prosjekter. For Noor handler design om å forenkle, og prioritere det som er viktig for sluttbrukeren. Derfor er det avgjørende med en god strategi i forkant av et prosjekt, og Noor verdsetter en grundig prosess i samarbeid med kunden. Noor jobber med design for alle typer digitale flater, og behersker de fleste ledende software for utarbeidelse av grafikk.', 
+          email: 'noor.knutsen@knowit.no', 
+          pic: 'noor.jpg',
+        },
+      ],
+      title: 'Designprinsipper', 
+      type: 'Talk',
+      description: 'Beskrivelse kommer',
+    },
+    selgerne: {
+      pending: false, 
+      speakers: [
+        {
+          name: 'Erik Nylund',
+          bio: 'Experienced Business Development Executive currently working with clients to use digital technologies to change business models and provide new revenue and value-producing opportunities. Target areas are eg. Government, Mobility and Real Estate. Demonstrated history of working in the information services industry. Skilled in Executive Management, Business Development, Strategic Planning, Customer Development and Board Memberships.',
+          email: 'etn@knowit.no',
+          pic: 'nylund.jpg',
+        },
+      ],
+      title: 'Kommer',
+      type: 'Talk',
+      description: 'Kommer',
     },
     nodemcuws: {
       pending: false,
