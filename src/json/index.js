@@ -160,7 +160,7 @@ const viewmodel = {
             },
             {
               room: 'Bundestag',
-              slots: ['bootstrap'],
+              slots: ['youtube'],
             },
           ],
         },
