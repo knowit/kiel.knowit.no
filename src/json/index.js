@@ -33,9 +33,9 @@ const viewmodel = {
           entries: [
             {
               room: 'Show lounge',
-              slots: ['gdpr']
-            }
-          ]
+              slots: ['gdpr'],
+            },
+          ],
         },
         {
           time: '14:45-15:00',
@@ -75,10 +75,7 @@ const viewmodel = {
           entries: [
             {
               room: 'Auditorium 🎥',
-              slots: [
-                'introday2',
-                'larslundby',
-              ],
+              slots: ['introday2', 'larslundby'],
             },
           ],
         },
@@ -93,11 +90,7 @@ const viewmodel = {
           entries: [
             {
               room: 'Auditorium 🎥',
-              slots: [
-                'libanon',
-                'hanschristian',
-                'balance',
-              ],
+              slots: ['libanon', 'hanschristian', 'balance'],
             },
           ],
         },
@@ -657,7 +650,8 @@ const viewmodel = {
       ],
       title: 'Det libanesiske folkeregisteret …. eller en annen røverhistorie',
       type: 'Talk',
-      description: 'Når noe bare dukker opp og synes å være for godt til å være sant, hva gjør man da? Om Nigeriabrev, komplett meningsløse politiske strukturer, korrupsjon, attentater og naive nordmenn som vil gjøre verden til et såkalt bedre sted å leve. Et innblikk i en av de mer eksotiske delene av Eriks CV.',
+      description:
+        'Når noe bare dukker opp og synes å være for godt til å være sant, hva gjør man da? Om Nigeriabrev, komplett meningsløse politiske strukturer, korrupsjon, attentater og naive nordmenn som vil gjøre verden til et såkalt bedre sted å leve. Et innblikk i en av de mer eksotiske delene av Eriks CV.',
     },
     larslundby: {
       pending: false,
@@ -680,7 +674,8 @@ const viewmodel = {
       speakers: [
         {
           name: 'Noor Knutsen',
-          bio: 'Noor kommer fra kysten av Trøndelag, og kjennetegnes med bred og variert kompetanse. I 2009 ble han tildelt en studieplass innen Visuell Kommunikasjon ved Høgskolen i Sørøst Norge. og gjennomførte et år av bachelorgraden i utlandet, ved University of Wollongong i Australia. Etter at han ble uteksaminert i 2012, har han jobbet som profesjonell designer på en rekke små og store prosjekter. For Noor handler design om å forenkle, og prioritere det som er viktig for sluttbrukeren. Derfor er det avgjørende med en god strategi i forkant av et prosjekt, og Noor verdsetter en grundig prosess i samarbeid med kunden. Noor jobber med design for alle typer digitale flater, og behersker de fleste ledende software for utarbeidelse av grafikk.',
+          bio:
+            'Noor kommer fra kysten av Trøndelag, og kjennetegnes med bred og variert kompetanse. I 2009 ble han tildelt en studieplass innen Visuell Kommunikasjon ved Høgskolen i Sørøst Norge. og gjennomførte et år av bachelorgraden i utlandet, ved University of Wollongong i Australia. Etter at han ble uteksaminert i 2012, har han jobbet som profesjonell designer på en rekke små og store prosjekter. For Noor handler design om å forenkle, og prioritere det som er viktig for sluttbrukeren. Derfor er det avgjørende med en god strategi i forkant av et prosjekt, og Noor verdsetter en grundig prosess i samarbeid med kunden. Noor jobber med design for alle typer digitale flater, og behersker de fleste ledende software for utarbeidelse av grafikk.',
           email: 'noor.knutsen@knowit.no',
           pic: 'noor.jpg',
         },
@@ -694,28 +689,34 @@ const viewmodel = {
       speakers: [
         {
           name: 'Erik Nylund',
-          bio: 'Experienced Business Development Executive currently working with clients to use digital technologies to change business models and provide new revenue and value-producing opportunities. Target areas are eg. Government, Mobility and Real Estate. Demonstrated history of working in the information services industry. Skilled in Executive Management, Business Development, Strategic Planning, Customer Development and Board Memberships.',
+          bio:
+            'Experienced Business Development Executive currently working with clients to use digital technologies to change business models and provide new revenue and value-producing opportunities. Target areas are eg. Government, Mobility and Real Estate. Demonstrated history of working in the information services industry. Skilled in Executive Management, Business Development, Strategic Planning, Customer Development and Board Memberships.',
           email: 'etn@knowit.no',
           pic: 'nylund.jpg',
         },
       ],
-      title: 'The Far Side  - hvordan vi avdekker det ikke alle vet eller ikke alle ser i markedet',
+      title:
+        'The Far Side  - hvordan vi avdekker det ikke alle vet eller ikke alle ser i markedet',
       type: 'Talk',
-      description: 'Den sanne historien om hvordan og hvorfor, og hva du kan bidra med.',
+      description:
+        'Den sanne historien om hvordan og hvorfor, og hva du kan bidra med.',
     },
     prosjektprodukt: {
-      pending: false, 
+      pending: false,
       speakers: [
         {
-          name: 'Rolf Knutsen', 
-          bio: 'Rolf har jobbet som prosjektleder og ledelse av oppdrag og team siden 1999. Han er sertifisert Senior Prosjektleder fra International Project Management Associaton (IPMA) og PMP. Han har erfaring fra en rekke ulike utviklingsprosjekter. Erfaringen omfatter ledelse av prosjekter som inkluderer systemutvikling (SW og HW), integrasjon og verifikasjon i større nasjonale og internasjonale utviklingsprosjekter, samt IT-prosjekter innen offentlig sektor. \n \nRolf er svært interessert i utviklingsprosesser og spesielt moderne, smidige metoder. Disse fokuserer på produktutvikling og muliggjøring av rask og effektiv leveranse av verdi. Rolf har jobbet mye direkte med team og i smidige team og utvikling av disse, blant annet som agile coach. Rolf har også mye erfaring med formelle prosjektstyringsrammeverk og er flink til å finne den riktige balansen mellom nødvendig formalisme og smidig utvikling. \n\n Rolf er en aktiv og initiativrik person. Han har et høyt engasjement i oppdragene og en god evne til å skape godt samarbeidsklima og målrettet arbeid både i teamene og ikke minst i samarbeidet med kundene. Han er åpen, tydelig og ryddig, og trives like godt med å jobbe mot ledelse og styringsgruppe som internt i prosjektene med teamene.',
+          name: 'Rolf Knutsen',
+          bio:
+            'Rolf har jobbet som prosjektleder og ledelse av oppdrag og team siden 1999. Han er sertifisert Senior Prosjektleder fra International Project Management Associaton (IPMA) og PMP. Han har erfaring fra en rekke ulike utviklingsprosjekter. Erfaringen omfatter ledelse av prosjekter som inkluderer systemutvikling (SW og HW), integrasjon og verifikasjon i større nasjonale og internasjonale utviklingsprosjekter, samt IT-prosjekter innen offentlig sektor. \n \nRolf er svært interessert i utviklingsprosesser og spesielt moderne, smidige metoder. Disse fokuserer på produktutvikling og muliggjøring av rask og effektiv leveranse av verdi. Rolf har jobbet mye direkte med team og i smidige team og utvikling av disse, blant annet som agile coach. Rolf har også mye erfaring med formelle prosjektstyringsrammeverk og er flink til å finne den riktige balansen mellom nødvendig formalisme og smidig utvikling. \n\n Rolf er en aktiv og initiativrik person. Han har et høyt engasjement i oppdragene og en god evne til å skape godt samarbeidsklima og målrettet arbeid både i teamene og ikke minst i samarbeidet med kundene. Han er åpen, tydelig og ryddig, og trives like godt med å jobbe mot ledelse og styringsgruppe som internt i prosjektene med teamene.',
           email: 'rhk@knowit.no',
           pic: 'rhk.jpg',
         },
       ],
-      title: 'Prosjekt eller produktutvikling og hvorfor det spiller noen rolle.',
-      type: 'Talk', 
-      description: 'Tidligere var alle aktivitetene våre organisert som prosjekter mens fokus nå stadig oftere er produktutvikling. Hva har skjedd med verden, og hva innebærer dette skiftet for oss i praksis?',
+      title:
+        'Prosjekt eller produktutvikling og hvorfor det spiller noen rolle.',
+      type: 'Talk',
+      description:
+        'Tidligere var alle aktivitetene våre organisert som prosjekter mens fokus nå stadig oftere er produktutvikling. Hva har skjedd med verden, og hva innebærer dette skiftet for oss i praksis?',
     },
     arkit: {
       pending: false, 
