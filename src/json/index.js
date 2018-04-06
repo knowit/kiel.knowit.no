@@ -182,7 +182,7 @@ const viewmodel = {
           entries: [
             {
               room: 'Auditorium 🎥',
-              slots: ['thegathering'],
+              slots: ['consumerdrivencontracts'],
             },
             {
               room: 'Parliament 🎥',
@@ -190,7 +190,7 @@ const viewmodel = {
             },
             {
               room: 'Congress 1',
-              slots: ['consumerdrivencontracts'],
+              slots: ['thegathering'],
             },
             {
               room: 'Congress 2',
@@ -221,6 +221,10 @@ const viewmodel = {
             {
               room: 'Congress 1',
               slots: ['mats3'],
+            },
+            {
+              room: 'Congress 2',
+              slots: ['prosjektprodukt'],
             },
             {
               room: 'Bundestag',
@@ -691,9 +695,23 @@ const viewmodel = {
           pic: 'nylund.jpg',
         },
       ],
-      title: 'Kommer',
+      title: 'The Far Side  - hvordan vi avdekker det ikke alle vet eller ikke alle ser i markedet',
       type: 'Talk',
-      description: 'Kommer',
+      description: 'Den sanne historien om hvordan og hvorfor, og hva du kan bidra med.',
+    },
+    prosjektprodukt: {
+      pending: false, 
+      speakers: [
+        {
+          name: 'Rolf Knutsen', 
+          bio: 'Rolf har jobbet som prosjektleder og ledelse av oppdrag og team siden 1999. Han er sertifisert Senior Prosjektleder fra International Project Management Associaton (IPMA) og PMP. Han har erfaring fra en rekke ulike utviklingsprosjekter. Erfaringen omfatter ledelse av prosjekter som inkluderer systemutvikling (SW og HW), integrasjon og verifikasjon i større nasjonale og internasjonale utviklingsprosjekter, samt IT-prosjekter innen offentlig sektor. \n \nRolf er svært interessert i utviklingsprosesser og spesielt moderne, smidige metoder. Disse fokuserer på produktutvikling og muliggjøring av rask og effektiv leveranse av verdi. Rolf har jobbet mye direkte med team og i smidige team og utvikling av disse, blant annet som agile coach. Rolf har også mye erfaring med formelle prosjektstyringsrammeverk og er flink til å finne den riktige balansen mellom nødvendig formalisme og smidig utvikling. \n\n Rolf er en aktiv og initiativrik person. Han har et høyt engasjement i oppdragene og en god evne til å skape godt samarbeidsklima og målrettet arbeid både i teamene og ikke minst i samarbeidet med kundene. Han er åpen, tydelig og ryddig, og trives like godt med å jobbe mot ledelse og styringsgruppe som internt i prosjektene med teamene.',
+          email: 'rhk@knowit.no',
+          pic: 'rhk.jpg',
+        },
+      ],
+      title: 'Prosjekt eller produktutvikling og hvorfor det spiller noen rolle.',
+      type: 'Talk', 
+      description: 'Tidligere var alle aktivitetene våre organisert som prosjekter mens fokus nå stadig oftere er produktutvikling. Hva har skjedd med verden, og hva innebærer dette skiftet for oss i praksis?',
     },
     nodemcuws: {
       pending: false,
