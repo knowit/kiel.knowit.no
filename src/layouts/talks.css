@@ -76,8 +76,9 @@
 }
 
 .c-talks__container {
-  flex: 1 30%;
+  flex: 1 28%;
   margin-top: 0.2rem;
+  margin-left: 0.2rem;
   padding: 1rem;
   background-color: white;
   border: 1px solid var(--gray-1);

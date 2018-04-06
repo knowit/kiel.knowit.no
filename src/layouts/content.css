@@ -68,11 +68,21 @@
   background-color: var(--gray-2);
 
   & .c-content__container {
-    padding: 0 20%;
+    padding: 0 5%;
   }
 }
 
+@media(--xxlarge-viewport) {
+  .c-content--schedule,
+  .c-content--speakers {
+    background-color: var(--gray-2);
 
+    & .c-content__container {
+      padding: 0 20%;
+    }
+  }
+
+}
 
 @media (--medium-viewport) {
   .c-content--intro {
@@ -82,7 +92,7 @@
   .c-content--info > p {
       max-width: 80%;
   }
-  
+
   .c-content--schedule,
   .c-content--speakers {
     & .c-content__container {

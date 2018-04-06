@@ -3,7 +3,7 @@ const viewmodel = {
   event: {
     date: '27. april - 29. april 2018',
     longDate: '27. april - 29. april 2018',
-    venue: 'Colorline Oslo-Kiel',
+    venue: 'Colorline Oslo - Kiel',
     city: 'Kiel',
     country: 'Tyskland',
     gmapsUrl:
@@ -18,7 +18,7 @@ const viewmodel = {
           title: 'Vi ankommer Kiel fergen',
         },
         {
-          time: '14:00-14:05',
+          time: '14:00 - 14:05',
           title: 'Plenumsforedrag',
           entries: [
             {
@@ -28,7 +28,7 @@ const viewmodel = {
           ],
         },
         {
-          time: '14:05-14:50',
+          time: '14:05 - 14:50',
           title: 'Plenumsforedrag',
           entries: [
             {
@@ -38,7 +38,7 @@ const viewmodel = {
           ],
         },
         {
-          time: '14:45-15:00',
+          time: '14:50 - 15:00',
           title: 'Pause',
           isBreak: true,
         },
@@ -70,7 +70,7 @@ const viewmodel = {
       day: 'Lørdag 28. April',
       collections: [
         {
-          time: '14:00-14:45',
+          time: '14:00 - 14:45',
           title: 'Plenumsforedrag',
           entries: [
             {
@@ -80,12 +80,12 @@ const viewmodel = {
           ],
         },
         {
-          time: '14:45-15:00',
+          time: '14:45 - 15:00',
           title: 'Pause',
           isBreak: true,
         },
         {
-          time: '15:00-16:00',
+          time: '15:00 - 16:00',
           title: 'Plenumsforedrag',
           entries: [
             {
@@ -95,7 +95,7 @@ const viewmodel = {
           ],
         },
         {
-          time: '16:00-16:45',
+          time: '16:00 - 16:45',
           title: 'Pause',
           isBreak: true,
         },
@@ -130,7 +130,7 @@ const viewmodel = {
           ],
         },
         {
-          time: '17:15-17:30',
+          time: '17:15 - 17:30',
           title: 'Pause',
           isBreak: true,
         },
@@ -165,7 +165,7 @@ const viewmodel = {
           ],
         },
         {
-          time: '18:00-18:15',
+          time: '18:00 - 18:15',
           title: 'Pause',
           isBreak: true,
         },
