@@ -41,19 +41,22 @@ class SchedulePage extends React.Component {
     return (
       <div {...classes('', 'schedule')}>
         <h1>Skjema</h1>
-          <ButtonGroup>
-            <Link {...buttonClasses('', 'white')} to="/">
-              Forside
-            </Link>
-            <Link {...buttonClasses('', 'white')} to="/speakers/">
-              Talere
-            </Link>
-          </ButtonGroup>
+        <ButtonGroup>
+          <Link {...buttonClasses('', 'white')} to="/">
+            Forside
+          </Link>
+          <Link {...buttonClasses('', 'white')} to="/speakers/">
+            Talere
+          </Link>
+        </ButtonGroup>
         <ButtonGroup cssModfier="schedule-days">
           {viewmodel.schedules.map((day, index) => (
             <button
               onClick={evt => this.onDayClick(evt, index)}
-              {...buttonClasses('', this.state.activeIndex === index ? 'active' : '')}
+              {...buttonClasses(
+                '',
+                this.state.activeIndex === index ? 'active' : ''
+              )}
             >
               {day.day}
             </button>
