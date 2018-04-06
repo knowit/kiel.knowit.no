@@ -503,7 +503,7 @@ const viewmodel = {
       pending: false,
       speakers: [
         {
-          name: 'S. Christoffer Eliesen',
+          name: 'Christoffer Eliesen',
           bio:
             'Frontendutvikler på TRiO for Beredskapsetaten og leder av Creative Crew der vi prøver å vinne internett. 😁💃✨',
           email: 'christoffer.eliesen@knowit.no',
@@ -751,7 +751,7 @@ const viewmodel = {
       pending: false,
       speakers: [
         {
-          name: 'S. Christoffer Eliesen',
+          name: 'Christoffer Eliesen',
           bio:
             'Frontendutvikler på TRiO for Beredskapsetaten og leder av Creative Crew der vi prøver å vinne internett. 😁💃✨',
           email: 'christoffer.eliesen@knowit.no',

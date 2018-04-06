@@ -89,7 +89,6 @@
 
     &__container {
       flex: 1 100%;
-      padding-right: 0;
       border-left: none;
       border-right: none;
     }
