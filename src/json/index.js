@@ -195,7 +195,7 @@ const viewmodel = {
             },
             {
               room: 'Bundestag',
-              slots: ['oslokey'],
+              slots: ['oslokey_react_native'],
             },
           ],
         },
@@ -225,7 +225,7 @@ const viewmodel = {
             },
             {
               room: 'Bundestag',
-              slots: ['oslokey_react_native'],
+              slots: ['oslokey'],
             },
           ],
         },
