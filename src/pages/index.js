@@ -32,7 +32,7 @@ const IndexPage = () => (
           Talere
         </Link>
         <Link {...buttonClasses('', 'white')} to="/schedule/">
-          Skjema
+          Program
         </Link>
       </ButtonGroup>
       <a href="#info">

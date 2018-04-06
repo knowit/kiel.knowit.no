@@ -40,7 +40,7 @@ class SchedulePage extends React.Component {
     }
     return (
       <div {...classes('', 'schedule')}>
-        <h1>Skjema</h1>
+        <h1>Program</h1>
         <ButtonGroup>
           <Link {...buttonClasses('', 'white')} to="/">
             Forside

@@ -24,7 +24,7 @@ const SpeakersPage = props => {
           Forside
         </Link>
         <Link {...buttonClasses('', 'white')} to="/schedule/">
-          Skjema
+          Program
         </Link>
       </ButtonGroup>
       <div {...classes('container')}>
