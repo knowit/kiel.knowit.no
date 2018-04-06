@@ -75,9 +75,14 @@
 
 
 @media (--medium-viewport) {
+  .c-content--intro {
+    min-height: 80vh;
+  }
+
   .c-content--info > p {
       max-width: 80%;
   }
+  
   .c-content--schedule,
   .c-content--speakers {
     & .c-content__container {
