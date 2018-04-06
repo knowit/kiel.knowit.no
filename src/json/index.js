@@ -220,7 +220,7 @@ const viewmodel = {
               slots: ['prosjektprodukt'],
             },
             {
-              room: 'Congress 3', 
+              room: 'Congress 3',
               slots: ['arkit'],
             },
             {
@@ -719,16 +719,16 @@ const viewmodel = {
         'Tidligere var alle aktivitetene våre organisert som prosjekter mens fokus nå stadig oftere er produktutvikling. Hva har skjedd med verden, og hva innebærer dette skiftet for oss i praksis?',
     },
     arkit: {
-      pending: false, 
+      pending: false,
       speakers: [
         {
-          name: 'Arve Seljebu', 
+          name: 'Arve Seljebu',
           bio: 'Lidenskapelig interessert i teknologi, fra elektronikk til programmering. Allsidig bakgrunn med lektorutdannelse, master i fysikk, fagbrev i elektronikk og halvårstudium i friluftsliv. Liker utfordringer og er kjapp til å lære nye teknologier. Glad i kunnskapsformidling.',
-          email: 'arve.seljebu@knowit.no', 
+          email: 'arve.seljebu@knowit.no',
           pic: 'arvesel.jpg',
         },
-      ], 
-      title: 'Er det mulig å kapre oppdrag innen AR som nyansatt uten erfaring?', 
+      ],
+      title: 'Er det mulig å kapre oppdrag innen AR som nyansatt uten erfaring?',
       type: 'Talk',
       description: 'Som nyansatt i Trondheim og med bakgrunn som lektor i videregående skole er jeg ikke i toppen av bunken. Kan kundens holdning til konsulenter uten erfaring påvirkes i intervjurunden med demo-arbeid? Hvordan gikk det når jeg prøvde å lære meg iOS-utvikling og ARKit på en uke? Hva kan vi bruke ARKit til?',
     },
@@ -859,8 +859,8 @@ const viewmodel = {
       speakers: [
         {
           name: 'Mina Ravem',
-          bio: 'Bio kommer',
-          pic: '',
+          bio: 'Mina har en mastergrad I Human centred systems aka user experience. Spesialiseringen hennes ligger i brukerinnsikt, både i hvordan man tilegner seg og bruker innsikten for å skape gode brukeropplevelser.',
+          pic: 'mina.ravem.jpg',
           email: 'mina.ravem@knowit.no',
         },
       ],
