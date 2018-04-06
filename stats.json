@@ -1,24 +1,24 @@
 {
   "assetsByChunkName": {
     "component---src-pages-speakers-js": [
-      "component---src-pages-speakers-js-929416fc6a7eb28cadb3.js",
-      "component---src-pages-speakers-js-929416fc6a7eb28cadb3.js.map"
+      "component---src-pages-speakers-js-a6272cdf0f11930ddd83.js",
+      "component---src-pages-speakers-js-a6272cdf0f11930ddd83.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-899d8b8b1227bbc0cce4.js",
-      "component---src-pages-index-js-899d8b8b1227bbc0cce4.js.map"
+      "component---src-pages-index-js-08ce86563ef82b8e61e0.js",
+      "component---src-pages-index-js-08ce86563ef82b8e61e0.js.map"
     ],
     "component---src-pages-schedule-js": [
-      "component---src-pages-schedule-js-f7afa9f5afd627a4b546.js",
-      "component---src-pages-schedule-js-f7afa9f5afd627a4b546.js.map"
+      "component---src-pages-schedule-js-06977e3e76bd55dadac9.js",
+      "component---src-pages-schedule-js-06977e3e76bd55dadac9.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-a623df811c4efb01fef7.js",
-      "component---src-layouts-index-js-a623df811c4efb01fef7.js.map"
+      "component---src-layouts-index-js-796c3dd0b95e96d8406a.js",
+      "component---src-layouts-index-js-796c3dd0b95e96d8406a.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -41,9 +41,9 @@
       "path---speakers-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-870de22b5506e93fc05f.js",
+      "app-a95225e1d03708a35d10.js",
       "build-js-styles.css",
-      "app-870de22b5506e93fc05f.js.map",
+      "app-a95225e1d03708a35d10.js.map",
       "build-js-styles.css.map"
     ],
     "path---schedule": [
