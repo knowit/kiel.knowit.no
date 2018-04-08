@@ -62,9 +62,17 @@
     margin-right: 1rem;
   }
 }
+.c-content--not-found {
+  text-align: center;
 
+  & svg {
+    width: 100px;
+    height: 100px;
+  }
+}
 .c-content--schedule,
-.c-content--speakers {
+.c-content--speakers,
+.c-content--not-found {
   background-color: var(--gray-2);
 
   & .c-content__container {
@@ -74,7 +82,8 @@
 
 @media(--xxlarge-viewport) {
   .c-content--schedule,
-  .c-content--speakers {
+  .c-content--speakers,
+  .c-content--not-found {
     background-color: var(--gray-2);
 
     & .c-content__container {
@@ -94,7 +103,8 @@
   }
 
   .c-content--schedule,
-  .c-content--speakers {
+  .c-content--speakers,
+  .c-content--not-found {
     & .c-content__container {
       padding: 0;
     }
