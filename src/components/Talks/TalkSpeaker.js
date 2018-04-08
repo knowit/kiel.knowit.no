@@ -10,7 +10,7 @@ const TalkSpeaker = ({ speaker, numberOfSpeakers, talkId }) => {
     <div {...talksClasses('speaker')}>
       <span {...talksClasses('speaker-image')}>
         {speaker.pic ? (
-          <img src={withPrefix(`/static/pics/${speaker.pic}`)} />
+          <img title={`Image of ${speaker.name}`} alt={`Image of ${speaker.name}`} src={withPrefix(`/static/pics/${speaker.pic}`)} />
         ) : (
           <Person />
         )}

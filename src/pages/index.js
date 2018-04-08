@@ -19,7 +19,7 @@ const buttonClasses = new BEMHelper({
 const IndexPage = () => (
   <div>
     <div {...classes('', 'intro')}>
-      <img src="./static/logo_kielferga.png" />
+      <img  title="Kiel ferga logo" alt="kielferga tour logo" src="./static/logo_kielferga.png" />
       <h1>{viewmodel.title}</h1>
       <div>
         <Paragraph cssModfier="white">Tid: {viewmodel.event.date}</Paragraph>
