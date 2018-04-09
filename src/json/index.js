@@ -616,14 +616,14 @@ const viewmodel = {
         {
           name: 'Hans Christian Brodwall Nielsen',
           bio:
-            'Hans Christian er en av våre mest erfarne konsulenter med lang erfaring og nøkkelkompetanse innenfor programmeringsspråk, databasesystemer, objektorientert og modellbasert systemutvikling. Han har også ledererfaring, både som utviklingssjef, avdelingsleder og prosjektleder. Hans Christian er meget utadvendt, systematisk og løsningsorientert, og oppnår alltid høy tillit hos kunder samtidig som han bidrar til positiv stemning i prosjektene.',
+            'Hans Chr har kodet i mange år. Faktisk lenger enn mange konsulenter i Knowit har levd. Han har prøvd seg på andre ting, men det eneste han liker og føler at han mestrer er koding. Målet hans er å fortsette å kode til han går av med pensjon.',
           email: 'hcn@knowit.no',
           pic: 'hcn.png',
         },
       ],
-      title: 'Programmering gjennom tidene',
+      title: 'Syvende fedre i huset – om programmering og verktøyutvikling i gamle dager',
       type: 'Talk',
-      description: 'Beskrivelse kommer',
+      description: 'Gamle folk liker å snakke om gamle dager, og der er jeg ikke noe unntak. Jeg vil snakke om en serie av firmaer som mange av oss i Knowit har vært med i. Vi var utviklere og brukere av et verktøy som var stort i Norge og som også hadde en viss utbredelse i andre land. Mange av oss har vært med både opp og ned - opp med stigende aksjekurser og ned når alt gikk til helvete.',
     },
     gdpr: {
       pending: false,
