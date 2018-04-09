@@ -18,7 +18,7 @@ const viewmodel = {
           title: 'Vi ankommer Kiel fergen',
         },
         {
-          time: '14:00 - 14:05',
+          time: '14:00 - 14:10',
           title: 'Plenumsforedrag',
           entries: [
             {
@@ -28,17 +28,17 @@ const viewmodel = {
           ],
         },
         {
-          time: '14:05 - 14:50',
+          time: '14:10 - 14:40',
           title: 'Plenumsforedrag',
           entries: [
             {
               room: 'Show lounge',
-              slots: ['gdpr'],
+              slots: ['hanschristian'],
             },
           ],
         },
         {
-          time: '14:50 - 15:00',
+          time: '14:40 - 15:00',
           title: 'Pause',
           isBreak: true,
         },
@@ -90,7 +90,7 @@ const viewmodel = {
           entries: [
             {
               room: 'Auditorium 🎥',
-              slots: ['libanon', 'hanschristian', 'balance'],
+              slots: ['libanon', 'gdpr', 'balance'],
             },
           ],
         },
