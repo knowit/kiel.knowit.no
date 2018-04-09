@@ -684,7 +684,7 @@ const viewmodel = {
       ],
       title: 'Designprinsipper',
       type: 'Talk',
-      description: 'Beskrivelse kommer',
+      description: 'En gjennomgang av prisnsipper som preger en designprosess. Foredraget er spesielt laget for utviklere som ønsker en bedre forståelse av design som innovasjonsmetode. Her lærer du å løfte kvaliteten på et produkt med enkle grep.',
     },
     selgerne: {
       pending: false,
