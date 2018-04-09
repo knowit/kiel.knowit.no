@@ -90,7 +90,7 @@ const viewmodel = {
           entries: [
             {
               room: 'Auditorium 🎥',
-              slots: ['libanon', 'gdpr', 'balance'],
+              slots: ['gdpr', 'libanon', 'balance'],
             },
           ],
         },
@@ -629,9 +629,11 @@ const viewmodel = {
       pending: false,
       speakers: [
         {
-          name: 'Navn kommer',
-          bio: 'Bio kommer',
-          email: '?',
+          name: 'Joakim Lehn',
+          bio:
+            'Våren 2015 ble Joakim uteksaminert fra NTNU med en sivilingeniørgrad innenfor teknisk kybernetikk med spesialisering innefor navigasjon og fartøystyring. Han har tilegnet seg kompetanse innenfor mange felt gjennom varierte prosjekter, han har erfaring med blant annet android, roboter, quadcopter og sonarer med spesielt fokus på programmering, modellering, automatisering og prototyping. Disse prosjektene har gitt Joakim erfaring med flere programmeringsspråk, hovedsaklig med C, Scala, Java og Matlab. Joakim blir motivert av teambasert arbeid, og har ansvar som leder og arkitekt for et autonomt, tverrfaglig team. Dette ansvaret omfatter analyse/design av løsning, estimering, avklaringer mot kunde og utviklere i teamet, kvalitetssikring, oppfølging og rapportering. Utover dette har han gode engelskkunnskaper etter å ha studert et år i USA. Han liker nye utfordringer og har en genuin interesse for teknologi.',
+          pic: 'joakim.lehn.jpg',
+          email: 'joakim.lehn@knowit.no',
         },
       ],
       title: 'GDPR',
