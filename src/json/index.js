@@ -631,14 +631,14 @@ const viewmodel = {
         {
           name: 'Joakim Lehn',
           bio:
-            'Våren 2015 ble Joakim uteksaminert fra NTNU med en sivilingeniørgrad innenfor teknisk kybernetikk med spesialisering innefor navigasjon og fartøystyring. Han har tilegnet seg kompetanse innenfor mange felt gjennom varierte prosjekter, han har erfaring med blant annet android, roboter, quadcopter og sonarer med spesielt fokus på programmering, modellering, automatisering og prototyping. Disse prosjektene har gitt Joakim erfaring med flere programmeringsspråk, hovedsaklig med C, Scala, Java og Matlab. Joakim blir motivert av teambasert arbeid, og har ansvar som leder og arkitekt for et autonomt, tverrfaglig team. Dette ansvaret omfatter analyse/design av løsning, estimering, avklaringer mot kunde og utviklere i teamet, kvalitetssikring, oppfølging og rapportering. Utover dette har han gode engelskkunnskaper etter å ha studert et år i USA. Han liker nye utfordringer og har en genuin interesse for teknologi.',
+            'Joakim er en ivrig backend utvikler med fokus på faglig utvikling, arkitekturbeslutninger er noe Joakim trives godt med og som han har opparbeidet seg erfaring med fra både prosjekter samt Knowits arkitektskole. Forutenom utvikling har Joakim erfaring både som teamlead og scrum master fra flere prosjekter. Som teamlead er fokuset bygging av god teamkultur og smidig metodikk for å legge grunnstene for effektiv utvikling og en meningsfylt hverdag. Som person er Joakim positiv, utadvent, ambisiøs og svært målbevist. Han jobber strukturert, effektivt og blir motivert av nye krevende utfordringer.',
           pic: 'joakim.lehn.jpg',
           email: 'joakim.lehn@knowit.no',
         },
       ],
-      title: 'GDPR',
+      title: 'GDPR - En praktisk introduksjon for utviklere',
       type: 'Talk',
-      description: 'Beskrivelse kommer',
+      description: 'I denne lyntalen kommer jeg til å introdusere de mest fundamentale artiklene fra Europas nye personvernlov - GDPR. Jeg kommer til å forklare hva disse artiklene egentlig betyr, samt presentere noen retningslinjer for å sørge for at systemet er kompatibelt med det nye lovverket. Etter denne lyntalen vil du ha kjennskap om overflaten til GDPR, og ha en ide om hva dette betyr i praksis for deg som utvikler.',
     },
     libanon: {
       pending: false,
@@ -667,9 +667,9 @@ const viewmodel = {
         },
       ],
       title:
-        'Innslag fra Lars Lundby om visualisering av kompetansekartlegging',
+        'Visualisering og resultater fra kompetansekartlegging',
       type: 'Talk',
-      description: 'Beskrivelse kommer',
+      description: 'Lars har lekt med visualisering av resultatene fra kompetansekartleggingingen i Objectnet. Og mener vel noe også, kjenner vi han rett...',
     },
     designprinsipper: {
       pending: false,
