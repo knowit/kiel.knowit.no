@@ -1,7 +1,7 @@
 import React from 'react'
 import BEMHelper from 'react-bem-helper'
 import Link from 'gatsby-link'
-import SadFace from '../components/Icons/SadFace';
+import SadFace from '../components/Icons/SadFace'
 import ButtonGroup from '../components/ButtonGroup'
 
 const classes = new BEMHelper({
@@ -17,9 +17,9 @@ const buttonClasses = new BEMHelper({
 const NotFoundPage = () => (
   <div {...classes('', 'not-found')}>
     <div {...classes('container')}>
-    <SadFace />
-    <p>Denne siden finnes ikke</p>
-    <h2>Men har du prøvd en av disse?</h2>
+      <SadFace />
+      <p>Denne siden finnes ikke</p>
+      <h2>Men har du prøvd en av disse?</h2>
       <ButtonGroup>
         <Link {...buttonClasses('', 'white')} to="/">
           Forside

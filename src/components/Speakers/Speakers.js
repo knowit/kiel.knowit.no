@@ -9,7 +9,11 @@ const Speaker = ({ speaker }) => {
     <div {...speakersClass('speaker')}>
       <span key="speaker-img" {...speakersClass('speaker-image')}>
         {speaker.pic ? (
-          <img title={`Image of ${speaker.name}`} alt={`Image of ${speaker.name}`} src={withPrefix(`/static/pics/${speaker.pic}`)} />
+          <img
+            title={`Image of ${speaker.name}`}
+            alt={`Image of ${speaker.name}`}
+            src={withPrefix(`/static/pics/${speaker.pic}`)}
+          />
         ) : (
           <Person />
         )}

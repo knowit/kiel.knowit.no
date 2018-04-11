@@ -64,6 +64,10 @@ const viewmodel = {
             },
           ],
         },
+        {
+          time: '20:30',
+          title: 'Middag',
+        },
       ],
     },
     {
@@ -230,7 +234,7 @@ const viewmodel = {
           ],
         },
         {
-          time: '20:00',
+          time: '20:30',
           title: 'Middag',
         },
       ],
@@ -621,9 +625,11 @@ const viewmodel = {
           pic: 'hcn.png',
         },
       ],
-      title: 'Syvende fedre i huset – om programmering og verktøyutvikling i gamle dager',
+      title:
+        'Syvende fedre i huset – om programmering og verktøyutvikling i gamle dager',
       type: 'Talk',
-      description: 'Gamle folk liker å snakke om gamle dager, og der er jeg ikke noe unntak. Jeg vil snakke om en serie av firmaer som mange av oss i Knowit har vært med i. Vi var utviklere og brukere av et verktøy som var stort i Norge og som også hadde en viss utbredelse i andre land. Mange av oss har vært med både opp og ned - opp med stigende aksjekurser og ned når alt gikk til helvete.',
+      description:
+        'Gamle folk liker å snakke om gamle dager, og der er jeg ikke noe unntak. Jeg vil snakke om en serie av firmaer som mange av oss i Knowit har vært med i. Vi var utviklere og brukere av et verktøy som var stort i Norge og som også hadde en viss utbredelse i andre land. Mange av oss har vært med både opp og ned - opp med stigende aksjekurser og ned når alt gikk til helvete.',
     },
     gdpr: {
       pending: false,
@@ -638,7 +644,8 @@ const viewmodel = {
       ],
       title: 'GDPR - En praktisk introduksjon for utviklere',
       type: 'Talk',
-      description: 'I denne lyntalen kommer jeg til å introdusere de mest fundamentale artiklene fra Europas nye personvernlov - GDPR. Jeg kommer til å forklare hva disse artiklene egentlig betyr, samt presentere noen retningslinjer for å sørge for at systemet er kompatibelt med det nye lovverket. Etter denne lyntalen vil du ha kjennskap om overflaten til GDPR, og ha en ide om hva dette betyr i praksis for deg som utvikler.',
+      description:
+        'I denne lyntalen kommer jeg til å introdusere de mest fundamentale artiklene fra Europas nye personvernlov - GDPR. Jeg kommer til å forklare hva disse artiklene egentlig betyr, samt presentere noen retningslinjer for å sørge for at systemet er kompatibelt med det nye lovverket. Etter denne lyntalen vil du ha kjennskap om overflaten til GDPR, og ha en ide om hva dette betyr i praksis for deg som utvikler.',
     },
     libanon: {
       pending: false,
@@ -666,10 +673,10 @@ const viewmodel = {
           pic: 'llu.jpg',
         },
       ],
-      title:
-        'Visualisering og resultater fra kompetansekartlegging',
+      title: 'Visualisering og resultater fra kompetansekartlegging',
       type: 'Talk',
-      description: 'Lars har lekt med visualisering av resultatene fra kompetansekartleggingingen i Objectnet. Og mener vel noe også, kjenner vi han rett...',
+      description:
+        'Lars har lekt med visualisering av resultatene fra kompetansekartleggingingen i Objectnet. Og mener vel noe også, kjenner vi han rett...',
     },
     designprinsipper: {
       pending: false,
@@ -684,7 +691,8 @@ const viewmodel = {
       ],
       title: 'Designprinsipper',
       type: 'Talk',
-      description: 'En gjennomgang av prisnsipper som preger en designprosess. Foredraget er spesielt laget for utviklere som ønsker en bedre forståelse av design som innovasjonsmetode. Her lærer du å løfte kvaliteten på et produkt med enkle grep.',
+      description:
+        'En gjennomgang av prisnsipper som preger en designprosess. Foredraget er spesielt laget for utviklere som ønsker en bedre forståelse av design som innovasjonsmetode. Her lærer du å løfte kvaliteten på et produkt med enkle grep.',
     },
     selgerne: {
       pending: false,
