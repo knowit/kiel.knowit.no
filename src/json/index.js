@@ -398,9 +398,9 @@ const viewmodel = {
       speakers: [
         {
           name: 'Trygve Laugstøl',
-          bio: 'Bio kommer',
+          bio: 'Trygve Laugstøl er tidligere Java-utvikler som etter 15 års som ble mere interessert i ting som gjør noe og byttet til å være konsulent for petter smart-folk som vil lage dingser.',
           email: 'trygvis@trygvis.io',
-          pic: '',
+          pic: 'trygvis.jpg',
         },
       ],
       title: 'Oslo-nøkkelen',
@@ -750,15 +750,15 @@ const viewmodel = {
       speakers: [
         {
           name: 'Trygve Laugstøl',
-          bio: 'Bio kommer',
+          bio: 'Trygve Laugstøl er tidligere Java-utvikler som etter 15 års som ble mere interessert i ting som gjør noe og byttet til å være konsulent for petter smart-folk som vil lage dingser.',
           email: 'trygvis@trygvis.io',
-          pic: '',
+          pic: 'trygvis.jpg',
         },
       ],
-      title: 'Internet of Things: NodeMCU',
+      title: 'Internet of Things med NodeMCU',
       type: 'Workshop',
       description:
-        'NodeMCU/IoT: NodeMCU er en liten mikrokontroller med wifi som støtter TCP/IP, MQTT og andre IoT-/internett-protokoller samtidig som den er en flott mikrokontroller for å lage dingser. Workshopen får nok samme struktur som Arduino-workshopen men mere fokus på å lage IoT-ting enn elektronikken. Jeg ville nok brukt Arduino-påbygget for å gjøre det så lett som mulig for folk å skrive koden mens man er på båten.',
+        'I denne workshopen så vil lage en liten (og ekte, ikke raspberry pi-basert!) IoT-dings. Under workshopen vil vi koble opp følere og få ting til å bevege seg samtidig som vi er koblet til en sentral. Mens vi gjør dette vil det bli illustrert alternative teknologier og arkitekturer for kommunikasjon og sikkerhet. Siste tema i workshopen er hvordan man skal gå frem for å lage sin egen dings og hva man må tenke på. Temaer som dekkes: Wifi, Bluetotoh, MQTT, HTTP, mikrokontrollere, utviklingsprosess for dingser.',
     },
     secchapterws: {
       pending: false,
