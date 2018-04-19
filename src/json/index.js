@@ -22,7 +22,7 @@ const viewmodel = {
           title: 'Plenumsforedrag',
           entries: [
             {
-              room: 'Show lounge',
+              room: 'Show lounge (Dekk 7)',
               slots: ['welcome'],
             },
           ],
@@ -32,7 +32,7 @@ const viewmodel = {
           title: 'Plenumsforedrag',
           entries: [
             {
-              room: 'Show lounge',
+              room: 'Show lounge (Dekk 7)',
               slots: ['hanschristian'],
             },
           ],
@@ -47,19 +47,19 @@ const viewmodel = {
           title: 'Workshop',
           entries: [
             {
-              room: 'Parliament 🎥',
+              room: 'Parliament 🎥 (Dekk 12)',
               slots: ['secchapterws'],
             },
             {
-              room: 'Congress',
-              slots: ['kubernetesws', 'startupws', 'uuws'],
+              room: 'Congress (Dekk 12)',
+              slots: ['kubernetesws', 'uuws'],
             },
             {
-              room: 'Bundestag',
+              room: 'Bundestag (Dekk 12)',
               slots: ['nodemcuws', 'spotifyws'],
             },
             {
-              room: 'Stortinget',
+              room: 'Stortinget (Dekk 12)',
               slots: ['legomindstormws'],
             },
           ],
@@ -78,7 +78,7 @@ const viewmodel = {
           title: 'Plenumsforedrag',
           entries: [
             {
-              room: 'Auditorium 🎥',
+              room: 'Auditorium 🎥 (Dekk 12)',
               slots: ['introday2', 'larslundby'],
             },
           ],
@@ -93,7 +93,7 @@ const viewmodel = {
           title: 'Plenumsforedrag',
           entries: [
             {
-              room: 'Auditorium 🎥',
+              room: 'Auditorium 🎥 (Dekk 12)',
               slots: ['gdpr', 'libanon', 'balance'],
             },
           ],
@@ -108,27 +108,27 @@ const viewmodel = {
           title: 'Foredrag',
           entries: [
             {
-              room: 'Auditorium 🎥',
+              room: 'Auditorium 🎥 (Dekk 12)',
               slots: ['shakespeare'],
             },
             {
-              room: 'Parliament 🎥',
+              room: 'Parliament 🎥 (Dekk 12)',
               slots: ['bottom'],
             },
             {
-              room: 'Congress 1',
+              room: 'Congress 1 (Dekk 12)',
               slots: ['doorbell'],
             },
             {
-              room: 'Congress 2',
+              room: 'Congress 2 (Dekk 12)',
               slots: ['origo'],
             },
             {
-              room: 'Congress 3',
+              room: 'Congress 3 (Dekk 12)',
               slots: ['authapi'],
             },
             {
-              room: 'Bundestag',
+              room: 'Bundestag (Dekk 12)',
               slots: ['bootstrap'],
             },
           ],
@@ -143,27 +143,27 @@ const viewmodel = {
           title: 'Foredrag',
           entries: [
             {
-              room: 'Auditorium 🎥',
+              room: 'Auditorium 🎥 (Dekk 12)',
               slots: ['deeplearning'],
             },
             {
-              room: 'Parliament 🎥',
+              room: 'Parliament 🎥 (Dekk 12)',
               slots: ['crypto'],
             },
             {
-              room: 'Congress 1',
+              room: 'Congress 1 (Dekk 12)',
               slots: ['eventkafka'],
             },
             {
-              room: 'Congress 2',
+              room: 'Congress 2 (Dekk 12)',
               slots: ['designprinsipper'],
             },
             {
-              room: 'Congress 3',
+              room: 'Congress 3 (Dekk 12)',
               slots: ['asyncawait'],
             },
             {
-              room: 'Bundestag',
+              room: 'Bundestag (Dekk 12)',
               slots: ['youtube'],
             },
           ],
@@ -178,57 +178,57 @@ const viewmodel = {
           title: 'Lyntaler',
           entries: [
             {
-              room: 'Auditorium 🎥',
+              room: 'Auditorium 🎥 (Dekk 12)',
               slots: ['consumerdrivencontracts'],
             },
             {
-              room: 'Parliament 🎥',
+              room: 'Parliament 🎥 (Dekk 12)',
               slots: ['clibank'],
             },
             {
-              room: 'Congress 1',
+              room: 'Congress 1 (Dekk 12)',
               slots: ['thegathering'],
             },
             {
-              room: 'Congress 2',
+              room: 'Congress 2 (Dekk 12)',
               slots: ['selgerne'],
             },
             {
-              room: 'Congress 3',
+              room: 'Congress 3 (Dekk 12)',
               slots: ['serverlessazure'],
             },
             {
-              room: 'Bundestag',
+              room: 'Bundestag (Dekk 12)',
               slots: ['oslokey_react_native'],
             },
           ],
         },
         {
           time: '18:30 - 18:45',
-          title: 'Lyntaler',
+          title: 'Lyntaler (Dekk 12)',
           entries: [
             {
-              room: 'Auditorium 🎥',
-              slots: ['astronaut'],
+              room: 'Auditorium 🎥 (Dekk 12)',
+              slots: ['openspaceknowitlabs'],
             },
             {
-              room: 'Parliament 🎥',
+              room: 'Parliament 🎥 (Dekk 12)',
               slots: ['alexaskills'],
             },
             {
-              room: 'Congress 1',
+              room: 'Congress 1 (Dekk 12)',
               slots: ['mats3'],
             },
             {
-              room: 'Congress 2',
+              room: 'Congress 2 (Dekk 12)',
               slots: ['prosjektprodukt'],
             },
             {
-              room: 'Congress 3',
+              room: 'Congress 3 (Dekk 12)',
               slots: ['arkit'],
             },
             {
-              room: 'Bundestag',
+              room: 'Bundestag (Dekk 12)',
               slots: ['oslokey'],
             },
           ],
@@ -331,19 +331,20 @@ const viewmodel = {
       description:
         'Is it possible to learn personal information about an author based on their writing style? The field of author profiling addresses this specific problem. It belongs to the field of Natural Language Processing and authorship analysis, and aims to classify personal traits of authors, such as gender and age, based on their writing style. This presentation will show an approach to predicting the gender of tweet authors using a combination of neural network architectures and textual features.',
     },
-    astronaut: {
+    openspaceknowitlabs: {
       pending: false,
       speakers: [
         {
-          name: 'Thomas Andersen',
-          bio: '',
-          email: 'thomas.andersen@knowit.no',
+          name: 'Alina Kay',
+          bio: 'Alina er utdannet journalist fra University of Westminster i London og har en stor lidenskap for media og kommunikasjon. Hun har erfaring med alt fra tekstproduksjon til film og fotografi, og hun har tidligere jobbet i Google London som eventkoordinator. Alina er meget organisert, detaljorientert og kreativ. I Knowit Solutions jobber hun i hovedsak med eventer, sosiale medier og tekstproduksjon.',
+          email: 'alina.kay@knowit.no',
+          pic: 'alina.kay.jpg',
         },
       ],
-      title: 'Fra backend programmerer til astronaut frontend universet',
+      title: 'Open Space Knowitlabs',
       type: 'Talk',
       description:
-        "Etter mange år i bransjen, og i en tid hvor å mestre MVC pattern og integrasjon med en database kunne gjøre at du kunne kalle deg en 'fullstack utvikler'. De siste årene har frontend teknologiene eksplodert i intet mindre enn noe som kan kalles et Big Bang. React, ELM, Angular, Webpack, Gulp, Node, NPM er alle teknologier og buzzwords som er overveldende dersom en ikke har fulgt med i timen underveis. Spørsmålet er hvordan skal en med erfaring som ikke strekker seg lenger enn da JQuery ble poppis forholde seg til alle disse nye teknologiene, og ikke minst mestre de....",
+        "Open Space med tema Knowitlabs",
     },
     shakespeare: {
       pending: false,
