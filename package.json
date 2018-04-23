@@ -24,7 +24,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "predeploy": "npm run build",
+    "predeploy": "NODE_ENV=production npm run build",
     "deploy": "NODE_ENV=production gh-pages -d public",
     "start": "gatsby develop"
   },
