@@ -2,7 +2,7 @@
   "name": "kiel.knowit.no",
   "description": "Fagseminar side for Knowit",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Christian Peter <christian.peter@knowit.no>",
   "dependencies": {
     "gatsby": "^1.9.241",
     "gatsby-link": "^1.6.39",
@@ -25,7 +25,7 @@
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d public",
+    "deploy": "NODE_ENV=production gh-pages -d public",
     "start": "gatsby develop"
   },
   "devDependencies": {
