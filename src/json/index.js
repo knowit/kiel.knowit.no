@@ -129,7 +129,7 @@ const viewmodel = {
             },
             {
               room: 'Bundestag (Dekk 12)',
-              slots: ['bootstrap'],
+              slots: ['ubw'],
             },
           ],
         },
@@ -183,7 +183,7 @@ const viewmodel = {
             },
             {
               room: 'Parliament 🎥 (Dekk 12)',
-              slots: ['clibank'],
+              slots: ['arkit'],
             },
             {
               room: 'Congress 1 (Dekk 12)',
@@ -209,7 +209,7 @@ const viewmodel = {
           entries: [
             {
               room: 'Auditorium 🎥 (Dekk 12)',
-              slots: ['openspaceknowitlabs'],
+              slots: ['prosjektprodukt'],
             },
             {
               room: 'Parliament 🎥 (Dekk 12)',
@@ -221,11 +221,7 @@ const viewmodel = {
             },
             {
               room: 'Congress 2 (Dekk 12)',
-              slots: ['prosjektprodukt'],
-            },
-            {
-              room: 'Congress 3 (Dekk 12)',
-              slots: ['arkit'],
+              slots: ['openspaceknowitlabs'],
             },
             {
               room: 'Bundestag (Dekk 12)',
@@ -440,22 +436,6 @@ const viewmodel = {
       description:
         'Konsulent på dagtid, familie på kveldstid, startup på natten. Hvordan fungerer det egentlig? I dette foredraget skal jeg presentere kort om oppstartsbedriften jeg og Mikal Villa startet sammen en sen lørdagskveld etter Objectnet sitt julebord 2017!',
     },
-    clibank: {
-      pending: false,
-      speakers: [
-        {
-          name: 'Linn Vikre',
-          bio:
-            'Linn er en utadvendt og entusiastisk utvikler som liker å løse problemer ved hjelp av teknologi. Hun erfaring både fra backendsystemer utviklet i Java, til webapplikasjoner utviklet ved hjelp av React, JavaScript og CSS.',
-          email: 'linvik@knowit.no',
-          pic: 'linn.png',
-        },
-      ],
-      title: 'CLI-banken - Banken for nerder!',
-      type: 'Talk',
-      description:
-        'Lei av å måtte forholde deg til 3 (eller flere!) forskjellige bank-apper fordi du har lånet hos DNB, BSU hos en annen bank og en sparekonto hos en tredje bank? Takket være PSD2 direktivet og åpen bank så er det flere banker som i disse dager har lansert/ kommer til å lasere åpne bank-APIer. Kom og se hvordan du kan sjekke ut balansen på kontoen din og de siste transaksjonene dine i terminalen, takket være disse APIene.',
-    },
     crypto: {
       pending: false,
       speakers: [
@@ -537,21 +517,19 @@ const viewmodel = {
       description:
         'Oslo kommune Origo er Oslos nye storsatsning på digitalisering av kommunen. Dette er tenkt gjort gjennom 4 tiltak: 1) Arkitektur. Operasjonalisering av API-sentrisk arkitektur som muliggjør innovasjon. 2) Kultur for deling og samarbeid. Samarbeid og deling mellom autonome virksomheter/team. Full transparens, tilgjengelighet og åpenhet. 3) Åpen tjenesteplattform. Self-service for teams. Fjerner unødvendige flaskehalsker og inviterer alle til å utvikle for Oslo kommune. 4) Produktutviklingsorganisasjon. Fjern flaskehalser og implementer kontinuerlige leveranser og forbedring. Kobling mot Origo:Folk.',
     },
-    bootstrap: {
-      pending: false,
+    ubw: {
+      pending: false, 
       speakers: [
         {
-          name: 'Patrick Tørresvold',
-          bio:
-            'Mitt navn er Patrick A. D. Tørresvold, jeg kommer opprinnelig fra Mo I Rana, men bor nå på Slattum med min kone og to døtre. Har vært aktiv innen utvikling i PHP siden jeg var 14 år, men startet ikke jobbe profesjonelt med utvikling før jeg var nærmere 26. Da begynte jeg i et firma som heter OKB, hvor jeg på kort tid måtte lære meg C# og MVC, noe som resulterte i at jeg i dag har levert prosjekter til store kunder som feks. PayEx og Telia.',
-          email: 'patrick.torresvold@knowit.no',
-          pic: 'patrick.torresvold.jpg',
+          name: 'Bjørg Haaland', 
+          bio: 'Bjørg Haaland er viseadministrerende direktør i KnowIT Objectnet og jobber i all hovedsak operasjonelt. Bjørg har spisskompetanse innenfor prosjektledelse og leder utviklingsprosjekter av betydelig størrelse. Hun har stor arbeidskapasitet, betydelig prosjektledererfaring fra store prosjekter i offentlig sektor, er engasjert og bryr seg om personene rundt seg. Bjørg får ting gjort både fort og effektivt.',
+          email: 'bha@knowit.no',
+          pic: 'bha.jpg',
         },
       ],
-      title: 'How not to suck at Bootstrap.css',
-      type: 'Talk',
-      description:
-        'How should you really use Bootstrap as a developer or designer? Change your mindset and learn how I want you to use third party frameworks like Bootstrap to improve your daily work.',
+      title: 'Open space - UBW',
+      type: 'Open space',
+      description: 'Spørsmål, svar og ventilasjon om UBW.',
     },
     balance: {
       pending: false,
@@ -699,18 +677,18 @@ const viewmodel = {
       pending: false,
       speakers: [
         {
-          name: 'Erik Nylund',
+          name: 'Per Christian Øren',
           bio:
-            'Experienced Business Development Executive currently working with clients to use digital technologies to change business models and provide new revenue and value-producing opportunities. Target areas are eg. Government, Mobility and Real Estate. Demonstrated history of working in the information services industry. Skilled in Executive Management, Business Development, Strategic Planning, Customer Development and Board Memberships.',
-          email: 'etn@knowit.no',
-          pic: 'nylund.jpg',
+            'Salgsdirektør',
+          email: 'perore@knowit.no',
+          pic: 'perore.jpeg',
         },
       ],
       title:
-        'The Far Side  - hvordan vi avdekker det ikke alle vet eller ikke alle ser i markedet',
+        'Placeholder',
       type: 'Talk',
       description:
-        'Den sanne historien om hvordan og hvorfor, og hva du kan bidra med.',
+        'Placeholder',
     },
     prosjektprodukt: {
       pending: false,
