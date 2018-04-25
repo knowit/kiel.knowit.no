@@ -403,7 +403,7 @@ const viewmodel = {
       title: 'Oslo-nøkkelen',
       type: 'Talk',
       description:
-        'En lyntale om hvordan vår server, lås og hardware henger sammen og funker. Her hadde det nok vært bra å fått en av deres utviklere til å fortelle om bakgrunnen for prosjektet og hvordan appen KnowIT utviklet fungerer.',
+        'Trygve tegner og forteller på whiteboard om hvordan server, lås og hardware henger sammen og funker i Oslo-nøkkelen. Forvent arkitektur og kanskje noen visning av dingser? Oslonøkkelen er et prosjekt der Oslo kommune ønsker å tilgjengeliggjøre resursene sine utenfor åpningstidene. De har møterom, haller, bad, gjenvinningsstasjoner, fotballbaner osv.',
     },
     serverlessazure: {
       pending: false,
