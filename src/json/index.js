@@ -123,10 +123,10 @@ const viewmodel = {
               room: 'Congress 2 (Dekk 12)',
               slots: ['origo'],
             },
-            {
+            /*{
               room: 'Congress 3 (Dekk 12)',
               slots: ['authapi'],
-            },
+            },*/
             {
               room: 'Bundestag (Dekk 12)',
               slots: ['ubw'],
@@ -547,7 +547,7 @@ const viewmodel = {
       description:
         'Når prosjekter presser på for å rekke deadlines, når Jan Henrik maser om fagdeltagelse, når gruppeleder maser om føring av timelister, når... Når du muligens trenger noen tips om hvordan du balanserer jobb, liv og jobbliv. Da kan det hende at dette er lyntalen for deg.',
     },
-    authapi: {
+    /*authapi: {
       pending: false,
       speakers: [
         {
@@ -563,7 +563,7 @@ const viewmodel = {
       type: 'Talk',
       description:
         'En road-movie basert på en sann historie om hvilke utfordringer som oppstod når vi trengte å legge på autentisering på et API som i utgangspunktet skulle være åpent i størst mulig grad. Inkluderer eksplisitte scener av hva som kan skje når i utgangspunktet gode skytjenester er mer opinionated enn forventet. Høylytte sukk og avrivning av eget hår kan påregnes.',
-    },
+    },*/
     welcome: {
       pending: false,
       speakers: [
@@ -679,16 +679,16 @@ const viewmodel = {
         {
           name: 'Per Christian Øren',
           bio:
-            'Salgsdirektør',
+            'Per Christan er utdannet Siviløkonom, har jobbet 9 år som konsulent og etter det med salg av konsulenttjenester',
           email: 'perore@knowit.no',
           pic: 'perore.jpeg',
         },
       ],
       title:
-        'Placeholder',
+        'Sourcingstrategier',
       type: 'Talk',
       description:
-        'Placeholder',
+        'Vi ser litt på hvilke tanker våre kunder har gjort seg FØR de gjør en anskaffelse',
     },
     prosjektprodukt: {
       pending: false,
