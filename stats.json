@@ -1,16 +1,16 @@
 {
   "assetsByChunkName": {
     "component---src-pages-speakers-js": [
-      "component---src-pages-speakers-js-18a48fe71a73de0d37cb.js",
-      "component---src-pages-speakers-js-18a48fe71a73de0d37cb.js.map"
+      "component---src-pages-speakers-js-a173279f73b9a9c76fa4.js",
+      "component---src-pages-speakers-js-a173279f73b9a9c76fa4.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-a172b4be8a65c1ed5634.js",
-      "component---src-pages-index-js-a172b4be8a65c1ed5634.js.map"
+      "component---src-pages-index-js-e6354978097100bef9bd.js",
+      "component---src-pages-index-js-e6354978097100bef9bd.js.map"
     ],
     "component---src-pages-schedule-js": [
-      "component---src-pages-schedule-js-efd178aad2a76c006bf7.js",
-      "component---src-pages-schedule-js-efd178aad2a76c006bf7.js.map"
+      "component---src-pages-schedule-js-bd8d8209feb553bea305.js",
+      "component---src-pages-schedule-js-bd8d8209feb553bea305.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -21,8 +21,8 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-1f720bfcf4a4bfc74476.js",
-      "component---src-layouts-index-js-1f720bfcf4a4bfc74476.js.map"
+      "component---src-layouts-index-js-f504794ca1a48e0174ec.js",
+      "component---src-layouts-index-js-f504794ca1a48e0174ec.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -49,9 +49,9 @@
       "path---speakers-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-49e15ffb589b30299857.js",
+      "app-fe5f538a28e8a02ec6b5.js",
       "build-js-styles.css",
-      "app-49e15ffb589b30299857.js.map",
+      "app-fe5f538a28e8a02ec6b5.js.map",
       "build-js-styles.css.map"
     ],
     "path---schedule": [
