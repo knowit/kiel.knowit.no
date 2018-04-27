@@ -5,6 +5,7 @@ import viewmodel from '../json'
 import Paragraph from '../components/Paragraph'
 import ButtonGroup from '../components/ButtonGroup'
 import Arrow from '../components/Icons/Arrow'
+import CodeOfConduct from '../components/CodeOfConduct';
 
 const classes = new BEMHelper({
   name: 'content',
@@ -56,6 +57,7 @@ const IndexPage = () => (
       </p>
       <p>Alle rom markert med 🎥 vil bli filmet.</p>
     </div>
+    <CodeOfConduct />
   </div>
 )
 

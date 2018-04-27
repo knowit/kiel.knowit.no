@@ -74,8 +74,46 @@ svg {
   transition: opacity 300ms ease-in;
 }
 
+.c-code-of-conduct {
+  margin-bottom: 2rem;
+  text-align: center;
+  &__text {
+    display: block;
+    max-width: 40%;
+    margin: 0 auto;
+  }
+  &__text--hidden {
+    display: none;
+  }
+
+  & button {
+    transition: background-color none;
+    padding: 0;
+    border-radius: 0;
+    font-size: 1em;
+    color: inherit;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    display: block;
+    border-bottom: 2px solid black;
+    margin: 0 auto;
+
+    &:hover,
+    &:focus {
+      border-color: var(--purple-1); 
+    }
+  }
+}
+
 @media (--medium-viewport) {
   .google-maps-content {
     width: 60%;
+  }
+
+  .c-code-of-conduct {
+    &__text {
+      max-width: 90%;
+    }
   }
 }
