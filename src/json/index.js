@@ -515,7 +515,7 @@ const viewmodel = {
       title: 'Oslo kommune Origo: Åpen tjenesteplattform',
       type: 'Talk',
       description:
-        'Oslo kommune Origo er Oslos nye storsatsning på digitalisering av kommunen. Dette er tenkt gjort gjennom 4 tiltak: 1) Arkitektur. Operasjonalisering av API-sentrisk arkitektur som muliggjør innovasjon. 2) Kultur for deling og samarbeid. Samarbeid og deling mellom autonome virksomheter/team. Full transparens, tilgjengelighet og åpenhet. 3) Åpen tjenesteplattform. Self-service for teams. Fjerner unødvendige flaskehalsker og inviterer alle til å utvikle for Oslo kommune. 4) Produktutviklingsorganisasjon. Fjern flaskehalser og implementer kontinuerlige leveranser og forbedring. Kobling mot Origo:Folk.',
+        'Oslo kommune Origo er Oslos nye storsatsning på digitalisering av kommunen. Dette foredraget er absolutt ikke teknisk, men handler om organisering av utvikling i Oslo kommune. Dette er tenkt gjort gjennom 4 tiltak: 1) Arkitektur. Operasjonalisering av API-sentrisk arkitektur som muliggjør innovasjon. 2) Kultur for deling og samarbeid. Samarbeid og deling mellom autonome virksomheter/team. Full transparens, tilgjengelighet og åpenhet. 3) Åpen tjenesteplattform. Self-service for teams. Fjerner unødvendige flaskehalsker og inviterer alle til å utvikle for Oslo kommune. 4) Produktutviklingsorganisasjon. Fjern flaskehalser og implementer kontinuerlige leveranser og forbedring.',
     },
     ubw: {
       pending: false, 
